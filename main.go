@@ -58,7 +58,7 @@ func romanSolver(expr, romanNumbers []string) string {
 			return convert1_100ToRomans(result, romanNumbers)
 		}
 		{
-			fmt.Println(`ОШИБКА! Римская нотация не имеет нуля или отрицательных чисел.`)
+			fmt.Println(`ОШИБКА! Римская нотация не имеет ноля или отрицательных чисел.`)
 		}
 	}
 	return ""
